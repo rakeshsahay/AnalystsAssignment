@@ -1,0 +1,382 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Career Page Test Scenario",
+        "description": "",
+        "id": "analysts-career-page--features;career-page-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 4441056391,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AnalystHomePgTest.treadown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 91548,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AnalystCareerPgTest.treadown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46042330510,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on Analyst Home Page",
+            "match": {
+              "location": "AnalystCareerPgTest.User_is_on_Analyst_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104634918,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "validate Analyst Home page title",
+            "match": {
+              "location": "AnalystCareerPgTest.validate_Analyst_Home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79015829,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate  Menu Careers at Analyst Home Page",
+            "match": {
+              "location": "AnalystCareerPgTest.Validate_Menu_Careers_at_Analyst_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15358449660,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on career link at top menu",
+            "match": {
+              "location": "AnalystCareerPgTest.Click_on_career_link_at_top_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19588822,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate career page URL",
+            "match": {
+              "location": "AnalystCareerPgTest.validate_career_page_URL$()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1440332217,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "navigate back to home page",
+            "match": {
+              "location": "AnalystCareerPgTest.navigate_back_to_home_page$()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4095214910,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Scrolldown Screen to view bottom menu",
+            "match": {
+              "location": "AnalystCareerPgTest.Scrolldown_Screen_to_view_bottom_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4787213569,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on career link at bottom menu",
+            "match": {
+              "location": "AnalystCareerPgTest.click_on_career_link_at_bottom_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15364063,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validate career page title",
+            "match": {
+              "location": "AnalystCareerPgTest.validate_career_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Analysts Career Page  Features",
+    "description": "",
+    "id": "analysts-career-page--features",
+    "keyword": "Feature",
+    "uri": "Analysts_Career_Pg.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Home Page Test Scenario",
+        "description": "",
+        "id": "analysts-home-page--features;home-page-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1030915740,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AnalystHomePgTest.treadown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 314056,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AnalystCareerPgTest.treadown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19806724390,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "AnalystHomePgTest.User_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191510744,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "validate home page logo",
+            "match": {
+              "location": "AnalystHomePgTest.validate_home_page_logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30567200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate home page title",
+            "match": {
+              "location": "AnalystHomePgTest.validate_home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83847761,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate Menu Services at Top Screen",
+            "match": {
+              "location": "AnalystHomePgTest.Validate_Menu_Services_at_Top_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79526528,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate Menu Industries at Top Screen",
+            "match": {
+              "location": "AnalystHomePgTest.Validate_Menu_Industries_at_Top_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64527015,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate Menu Insights at Top Screen",
+            "match": {
+              "location": "AnalystHomePgTest.Validate_Menu_Insights_at_Top_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63335247,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate Menu About Us at Top Screen",
+            "match": {
+              "location": "AnalystHomePgTest.Validate_Menu_About_Us_at_Top_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65829625,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate Menu Careers at Top Screen",
+            "match": {
+              "location": "AnalystHomePgTest.Validate_Menu_Careers_at_Top_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92565764,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Scroll down Screen to bottom",
+            "match": {
+              "location": "AnalystHomePgTest.Scroll_down_Screen_to_bottom()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247958950,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Validate Menu The Company at Bottom Screen",
+            "match": {
+              "location": "AnalystHomePgTest.validate_Menu_The_Company_at_Bottom_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 330380943,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate Menu Leadership Team at Bottom Screen",
+            "match": {
+              "location": "AnalystHomePgTest.validate_Menu_Leadership_Team_at_Bottom_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38808578,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate Menu Careers Team at Bottom Screen",
+            "match": {
+              "location": "AnalystHomePgTest.validate_Menu_Careers_Team_at_Bottom_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 370121422,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate Menu Contact Us at Bottom Screen",
+            "match": {
+              "location": "AnalystHomePgTest.validate_Menu_Contact_Us_at_Bottom_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 311957203,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Validate Menu Privacy Policy at Bottom Screen",
+            "match": {
+              "location": "AnalystHomePgTest.validate_Menu_Privacy_Policy_at_Bottom_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246813984,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Validate Menu GDPR Commitment at Bottom Screen",
+            "match": {
+              "location": "AnalystHomePgTest.validate_Menu_GDPR_Commitment_at_Bottom_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 218643865,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Validate Menu Accessibility Statement at Bottom Screen",
+            "match": {
+              "location": "AnalystHomePgTest.validate_Menu_Accessibility_Statement_at_Bottom_Screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Analysts Home Page  Features",
+    "description": "",
+    "id": "analysts-home-page--features",
+    "keyword": "Feature",
+    "uri": "Analysts_HomePg.feature"
+  }
+]

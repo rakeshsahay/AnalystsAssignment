@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Analyst Internation Test Automaiton Suite" 
+verbose="1" parallel="tests"
+	thread-count="1" configfailurepolicy="continue">
+	<test name="Analyst Internation Web Application Test" annotations="JDK"
+		preserve-order="true">
+		<listeners>
+		<listener class-name="com.qa.Utils.ExtentReporterNG" />
+	</listeners>
+		<classes>
+			<class name="com.qa.TestRunner.TestRunner"/>
+		</classes>
+	</test>
+</suite>

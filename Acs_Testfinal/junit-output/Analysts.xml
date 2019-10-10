@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="99.657641">
+<testcase classname="Analysts Career Page  Features" name="Career Page Test Scenario" time="76.383292">
+<system-out><![CDATA[Given User is on Analyst Home Page..........................................passed
+Then validate Analyst Home page title.......................................passed
+Then Validate  Menu Careers at Analyst Home Page............................passed
+Then Click on career link at top menu.......................................passed
+Then validate career page URL...............................................passed
+Then navigate back to home page.............................................passed
+Then Scrolldown Screen to view bottom menu..................................passed
+Then click on career link at bottom menu....................................passed
+Then validate career page title.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Analysts Home Page  Features" name="Home Page Test Scenario" time="23.274349">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+Then validate home page logo................................................passed
+Then validate home page title...............................................passed
+Then Validate Menu Services at Top Screen...................................passed
+Then Validate Menu Industries at Top Screen.................................passed
+Then Validate Menu Insights at Top Screen...................................passed
+Then Validate Menu About Us at Top Screen...................................passed
+Then Validate Menu Careers at Top Screen....................................passed
+Then Scroll down Screen to bottom...........................................passed
+Then Validate Menu The Company at Bottom Screen.............................passed
+Then Validate Menu Leadership Team at Bottom Screen.........................passed
+Then Validate Menu Careers Team at Bottom Screen............................passed
+Then Validate Menu Contact Us at Bottom Screen..............................passed
+Then Validate Menu Privacy Policy at Bottom Screen..........................passed
+Then Validate Menu GDPR Commitment at Bottom Screen.........................passed
+Then Validate Menu Accessibility Statement at Bottom Screen.................passed
+]]></system-out>
+</testcase>
+</testsuite>
